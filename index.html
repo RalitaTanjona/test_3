@@ -20,17 +20,19 @@
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 	<!-- Google Tag Manager -->
-	<h1>Hello</h1>
+	<h1>Hello avec test JS</h1>
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in nibh viverra, mattis ligula vehicula, tincidunt eros. Fusce eleifend sagittis consectetur. Phasellus iaculis neque a fringilla pharetra. Pellentesque condimentum velit sollicitudin, condimentum turpis eu, laoreet ex. Nulla at turpis fringilla, auctor ligula in, dignissim magna. Sed tristique nunc lacus, sit amet aliquet ipsum lobortis quis. Nam turpis est, eleifend quis nisi id, lobortis mattis nisl. Proin diam ex, molestie eget pulvinar non, malesuada vel magna.
 	</p>
-	<script defer>
-			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	<script>
+		window.onload = (event) => {
+			console.log("loaded");
+ 	 		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 			})(window,document,'script','dataLayer','GTM-PBBSTMC');
-
+		};
 	</script>
 	<!-- End Google Tag Manager -->			
 </body>
