@@ -1,41 +1,843 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<title>Test</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link href="https://www.googletagmanager.com" rel="preconnect" crossorigin>
-	<link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
-	<script>var dataLayer = [] ;</script>
-	<!-- Anti-flicker snippet -->
-	<style>.async-hide { opacity: 0 !important} </style>
-	<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
-	h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
-	(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
-	})(window,document.documentElement,'async-hide','dataLayer',2000,
-	{'GTM-PBBSTMC':true});
-	</script>
-	<script>
-
-		console.log("defer");
-		
-			console.log("loaded");
-			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-			})(window,document,'script','dataLayer','GTM-PBBSTMC');
-	</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="https://www.hellopro.fr/css/annuaire_hp/v6/header_v6.css?v=202210041200">
+    <link rel="preload" href="https://www.hellopro.fr/css/annuaire_hp/v6/body_content.css?v=202210041300">
+    <link rel="preload" href="https://www.hellopro.fr/css/annuaire_hp/v6/footer_v6.css?v=202210041200">
+    <link rel="preload" href="/css/annuaire_hp/v6/fonts/sourcesanspro/SourceSansPro-Regular.ttf" as="font" type="font/ttf" >
+    <link rel="preload" href="/css/annuaire_hp/v6/fonts/sourcesanspro/SourceSansPro-Italic.ttf" as="font" type="font/ttf" >
+    <link rel="preload" href="/css/annuaire_hp/v6/fonts/sourcesanspro/SourceSansPro-SemiBold.ttf" as="font" type="font/ttf" >
+    <link rel="preload" href="/css/annuaire_hp/v6/fonts/sourcesanspro/SourceSansPro-SemiBoldItalic.ttf" as="font" type="font/ttf" >
+    <link rel="preload" href="/css/annuaire_hp/v6/fonts/sourcesanspro/SourceSansPro-Bold.ttf" as="font" type="font/ttf" >
+    <link rel="preload" href="/css/annuaire_hp/v6/fonts/sourcesanspro/SourceSansPro-BoldItalic.ttf" as="font" type="font/ttf" >
+    <link rel="preload" href="/css/annuaire_hp/v6/fonts/sourcesanspro/SourceSansPro-Black.ttf" as="font" type="font/ttf" >
+    <link rel="preload" href="/css/annuaire_hp/v6/fonts/sourcesanspro/SourceSansPro-BlackItalic.ttf" as="font" type="font/ttf" >
+    <link rel="preload" href="https://www.hellopro.fr/js/annuaire_hp/v6/generale_v6_c.js?v=202210041200">
+    <link rel="preload" href="https://www.hellopro.fr/js/annuaire_hp/v6/generale_v6_nc.js?v=202210041200">
+    <link rel="preload" href="https://www.hellopro.fr/images/produit-2/2/1/0/sv19vt-mini-pelle-yanmar-1-880-kg-6739012.png" as="image"/>
+    <title>Nom produit &agrave; dynamiser</title>
 </head>
 <body>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBBSTMC"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
-	<!-- Google Tag Manager -->
-	<h1>Hello avec test JS</h1>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in nibh viverra, mattis ligula vehicula, tincidunt eros. Fusce eleifend sagittis consectetur. Phasellus iaculis neque a fringilla pharetra. Pellentesque condimentum velit sollicitudin, condimentum turpis eu, laoreet ex. Nulla at turpis fringilla, auctor ligula in, dignissim magna. Sed tristique nunc lacus, sit amet aliquet ipsum lobortis quis. Nam turpis est, eleifend quis nisi id, lobortis mattis nisl. Proin diam ex, molestie eget pulvinar non, malesuada vel magna.
-	</p>
-	<!-- End Google Tag Manager -->			
+        <header id="header">
+    <div class="mhp-container">
+        <div  class="mhp-header">
+            <div class="three-bar-menu">
+                <ul id="mhp_univers_list">
+            
+                    <li class="" id="mm-univers-1">
+                        <a href="https://www.hellopro.fr/agroalimentaire-1-univers.html" data-id="1" data-type="univers">
+                            <span class="mhp_univers_icon mhp_ui_agro"></span>
+                            Agroalimentaire                        </a>
+                    </li>
+                    
+            
+                    <li class="" id="mm-univers-2">
+                        <a href="https://www.hellopro.fr/batiment-2-univers.html" data-id="2" data-type="univers">
+                            <span class="mhp_univers_icon mhp_ui_bat"></span>
+                            B&acirc;timent                        </a>
+                    </li>
+                    
+            
+                    <li class="" id="mm-univers-3">
+                        <a href="https://www.hellopro.fr/electricite-electronique-1000003-fr-rubrique.html" data-id="3" data-type="univers">
+                            <span class="mhp_univers_icon mhp_ui_elec"></span>
+                            Electricit&eacute;&nbsp;El&eacute;ctronique                        </a>
+                    </li>
+                    
+            
+                    <li class="" id="mm-univers-4">
+                        <a href="https://www.hellopro.fr/environnement-1000010-fr-rubrique.html" data-id="4" data-type="univers">
+                            <span class="mhp_univers_icon mhp_ui_env"></span>
+                            Environnement                        </a>
+                    </li>
+                    
+            
+                    <li class="" id="mm-univers-10">
+                        <a href="https://www.hellopro.fr/equipement-et-services-10-univers.html" data-id="10" data-type="univers">
+                            <span class="mhp_univers_icon mhp_ui_equi"></span>
+                            Equipements&nbsp;/&nbsp;Services                        </a>
+                    </li>
+                    
+            
+                    <li class="" id="mm-univers-5">
+                        <a href="https://www.hellopro.fr/industrie-5-univers.html" data-id="5" data-type="univers">
+                            <span class="mhp_univers_icon mhp_ui_indu"></span>
+                            Industrie                        </a>
+                    </li>
+                    
+            
+                    <li class="" id="mm-univers-6">
+                        <a href="https://www.hellopro.fr/informatique-multimedia-6-univers.html" data-id="6" data-type="univers">
+                            <span class="mhp_univers_icon mhp_ui_info"></span>
+                            Informatique&nbsp;Multim&eacute;dia                        </a>
+                    </li>
+                    
+            
+                    <li class="" id="mm-univers-7">
+                        <a href="https://www.hellopro.fr/logistique-distribution-7-univers.html" data-id="7" data-type="univers">
+                            <span class="mhp_univers_icon mhp_ui_logi"></span>
+                            Logistique&nbsp;-&nbsp;Distribution                        </a>
+                    </li>
+                    
+            
+                    <li class="" id="mm-univers-9">
+                        <a href="https://www.hellopro.fr/sciences-sante-9-univers.html" data-id="9" data-type="univers">
+                            <span class="mhp_univers_icon mhp_ui_sant"></span>
+                            Sciences&nbsp;-&nbsp;Sant&eacute;                        </a>
+                    </li>
+                    
+            
+                    <li class="" id="mm-univers-8">
+                        <a href="https://www.hellopro.fr/textile-habillement-loisirs-8-univers.html" data-id="8" data-type="univers">
+                            <span class="mhp_univers_icon mhp_ui_hab"></span>
+                            Textile&nbsp;-&nbsp;Habillement&nbsp;Loisirs                        </a>
+                    </li>
+                    
+                        </ul>
+            </div>
+            <a href="https://hellopro.fr" class="logo-hp">
+                <img src="https://www.hellopro.fr/annuaire_hp/demande_information_v2/images/logo.png" alt="hellopro.fr">
+            </a>
+            <div id="search-top" class="left-header">
+                <form id="mhp_search" name="search" action="#" onsubmit="" class="menu-recherche">
+                    <input type="text" name="mot_cles" id="mot_cles" placeholder="Rechercher parmi 1 102 305 produits et 61 000 fournisseurs">
+                    <button type="submit" id="mhp_search_button" name="mhp_search_button">
+                    </button>
+                </form>
+                <div class="mhp-btn">
+                    <a href="#" class="mhp_btn mhp_btn_primary btn_produit">
+                        Vendez vos produits
+                    </a>
+                    <a href="#" class="mhp_btn mhp_btn_secondary btn_mc">
+                        <span>Mon compte</span>
+                    </a>
+                    <a href="#" class="mhp_btn btn_cart mhp_btn_light">
+                        <span>Panier</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="search-bottom" class="left-header"></div>
+    </div>
+</header>
+            <div class="fil-ariane">
+                <div class="mhp-container">
+                    <a href="#">B&acirc;timent - travaux publics</a>
+                    <a href="#">Travaux publics</a>
+                    <a href="#">Pelleteuses et mini-pelles</a>
+                    <a href="#">Mini-pelles(moins de 10 tonnes)</a>
+                    <span class="nom-produit">Sv100-2 mini pelle yanmar 9625kg</span>
+                </div>
+            </div>
+                <div class="sep"></div>
+    <div class="mhp-container">
+                <div class="main-content">
+            <div class="info-produit">
+                <div class="bloc-center">
+                    <div class="bloc-img-devis">
+                        <div class="bloc-left-img">
+                            <div class="nom-produit">
+                                <h1 class="titre-produit">Sv100-2 midi pelle yanmar 9 625 kg
+                                    <span class="ref-produit">- R&Eacute;F. : SV100-1</span>
+                                </h1>
+                            </div>
+                            <div class="parent-cn-carroussel img-ppl">
+                                <div class="btn-scroll prev-scroll" style="display: none;">
+                                    <span class="arrow-scroll arrow-scroll-prev"></span>
+                                </div>
+                                <div id="cn-prod-ppl" class="photo-container cn-carroussel">
+                                    <div class="photo-presentation">
+                                        <img class="lazy-load-img" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-2/2/1/0/sv19vt-mini-pelle-yanmar-1-880-kg-6739012.png" alt="nom-image-a-dynamiser">
+                                    </div>
+                                    <div class="photo-presentation">
+                                        <img class="lazy-load-img" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-2/2/1/0/sv19vt-mini-pelle-yanmar-1-880-kg-6739012.png" alt="nom-image-a-dynamiser">
+                                    </div>
+                                    <div class="photo-presentation">
+                                        <img class="lazy-load-img" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-2/2/1/0/sv19vt-mini-pelle-yanmar-1-880-kg-6739012.png" alt="nom-image-a-dynamiser">
+                                    </div>
+                                </div>
+                                <div class="btn-scroll next-scroll">
+                                    <span class="arrow-scroll arrow-scroll-next"></span>
+                                </div>
+                            </div>
+                            <div class="vignette-produit">
+                                <span class="img-vignette-container mr-15">
+                                    <img class="lazy-load-img" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/v2/produit-3/1/9/8/sv17vt-mini-pelle-yanmar-1-700-kg-5645891.jpg" alt="nom-image-a-dynamiser">
+                                </span>
+                                <span class="img-vignette-container mr-15">
+                                    <img class="lazy-load-img" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/v3/produit-3/1/9/8/sv17vt-mini-pelle-yanmar-1-700-kg-5645891.jpg" alt="nom-image-a-dynamiser">
+                                </span>
+                                <span class="img-vignette-container">
+                                    <img class="lazy-load-img" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/v4/produit-3/1/9/8/sv17vt-mini-pelle-yanmar-1-700-kg-5645891.jpg" alt="nom-image-a-dynamiser">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spec-produit">
+                        <div class="description">
+                            <span class="spec-label">Description</span>
+                            <p class="desc-content">
+                                Les mini-pelles sur chenilles New Holland ont une capacit&eacute; de 1,7 &agrave; 6,0 tonnes. Avec un large choix de versions avec toit canopy, cabine et encombrement arri&egrave;re nul avec rayon de rotation court, vous trouverez le mod&egrave;le id&eacute;al pour l'am&eacute;nagement paysager, les travaux d'am&eacute;nagement, l'agriculture, l'horticulture, les p&eacute;pini&egrave;res, la gestion des domaines vinicoles et les travaux publics.<br><br> Les nombreuses applications possibles sont notamment la construction et l'entretien des chemins d'exploitation, des syst&egrave;mes d'irrigation et de drainage, mais &eacute;galement la construction de cl&ocirc;tures, de b&acirc;timents provisoires et de supports de plantations. Avec des accessoires hydrauliques tels que tari&egrave;res, rotors &agrave; fl&eacute;aux et faucheuses de talus, barres-s&eacute;cateurs et scies, la fl&egrave;che et le balancier offrent la souplesse d'un bras motoris&eacute; mais avec la force intrins&egrave;que d'une mini-pelle. Les m&ecirc;mes fl&egrave;che et balancier peuvent actionner des cisailles, des brise-roche et autres accessoires robustes comme des broyeuses de souches.
+                            </p>
+                        </div>
+                        <div class="caracteristique">
+                            <span class="spec-label">Caract&eacute;ristiques</span>
+                            <div class="bloc-carac">
+                                <div class="bloc-ref-1">
+                                    <div class="spec-container">
+                                        <span class="spec-label">R&eacute;f. site:</span>
+                                        <span class="spec-value">7836481</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Carrosserie:</span>
+                                        <span class="spec-value">Mini pelle</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Marque:</span>
+                                        <span class="spec-value">Wacker Neuson</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Gamme:</span>
+                                        <span class="spec-value">6003</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Etat:</span>
+                                        <span class="spec-value">Occasion</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Ann&eacute;e:</span>
+                                        <span class="spec-value">01/01/2012</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Garantie mat&eacute;riel:</span>
+                                        <span class="spec-value">Oui</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Dur&eacute;e de la garantie:</span>
+                                        <span class="spec-value">3 mois</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Pays:</span>
+                                        <span class="spec-value">FRANCE</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Constructeur:</span>
+                                        <span class="spec-value">Wacker Neuson</span>
+                                    </div>
+                                </div>
+                                <div class="bloc-ref-2">
+                                    <div class="spec-container">
+                                        <span class="spec-label">Puissance:</span>
+                                        <span class="spec-value">59 CV</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Poids:</span>
+                                        <span class="spec-value">6 Tonnes</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Nombre d'heures:</span>
+                                        <span class="spec-value">5000 heures</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Type:</span>
+                                        <span class="spec-value">sur chenilles</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Type de fl&egrave;che:</span>
+                                        <span class="spec-value">Monobloc</span>
+                                    </div>
+                                    <div class="spec-container">
+                                        <span class="spec-label">Type de cabine:</span>
+                                        <span class="spec-value">Cabine ferm&eacute;e</span>
+                                    </div>
+                                    <div>
+                                        <a href="#" id="telecharger-ft-prod" class="btn-down-ft input-rounded">
+                                            T&eacute;l&eacute;charger fiche techique
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-frns">
+                            <div class="img-produit-vign">
+                                <img src="https://www.hellopro.fr/images/produit-2/2/1/0/sv19vt-mini-pelle-yanmar-1-880-kg-6739012.png" alt="alt-img-a-dynamiser">
+                            </div>
+                            <div class="souhait-contact">
+                                <span class="label">Ce produit vous int&eacute;resse ?</span>
+                                <span class="label-small">
+                                    N'attendez pas plus longtemps, contactez la soci&eacute;t&eacute; <strong class="nom-comm">YANMAR</strong> pour plus d'informations !
+                                </span>
+                                <div class="btn-contact-group">
+                                    <a href="#" class="btn-call-frns box-rounded mr-15">
+                                        Appeler
+                                    </a>
+                                    <a href="#" class="btn-send-msg box-rounded">
+                                        Envoyer un message
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="a-propos-frns">
+                            <div class="top-afrns">
+                                <div class="top-left">
+                                    <div class="logo-nom-comm">
+                                        <img src="https://www.hellopro.fr/images/logo/logo_2971.jpg" alt="nom-soc-a-dynamiser" class="logo-soc-icon">
+                                        <div class="info-soc">
+                                            <span class="nom-comm">YANMAR</span>
+                                            <span class="level">
+                                                Top vendeur
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <span class="date-creation-soc">
+                                        Cr&eacute;&eacute;e en 2001
+                                    </span>
+                                    <span class="vendeur-hp-time">Vendeur sur Hellopro depuis 8 ans</span>
+                                </div>
+                                <div class="top-right">
+                                    <div class="map-soc">
+                                        <iframe id="map_canvas" src="https://maps.google.com/maps?q=48.9481236,2.3285748&amp;z=13&amp;output=embed" style="border:0" allowfullscreen=""></iframe>
+                                    </div>
+                                    <span class="adresse-ville">France, Les Andelys,(27)Normandie</span>
+                                </div>
+                            </div>
+                            <div class="bottom-afrns">
+                                <p class="desc-soc">
+                                    Pionnier dans le domaine des Centres de Contacts, App-line apporte aux entreprises des solutions technologiques leur permettant de d&eacute;velopper une approche comp&eacute;titive de la Relation Client. Tourn&eacute;e vers la diversit&eacute; des acc&egrave;s, la qualit&eacute; du service rendu et la productivit&eacute;. La gamme Sibilo d'App-line a &eacute;t&eacute; conçue pour permettre aux entreprises de d&eacute;velopper une Strat&eacute;gie Multicanal aboutie et coh&eacute;rente, d'engager avec chaque client un dialogue crosschannel et de g&eacute;n&eacute;rer une interactivit&eacute; plus intense dans tous les &eacute;changes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bloc-right-devis">
+                    <div class="bloc-devis">
+                                                <div class="prix-produit box-rounded">
+                                <span class="prix-ht">112.47 &euro; HT</span>
+                                <span class="prix-ttc">(134.96&euro; T.T.C)</span>
+                                <a href="#" class="btn_achat_prod input-rounded">Acheter ce produit</a>
+                        </div>
+                        <div class="contenu-demande box-rounded"> 
+                            <div class="logo-soc">
+                                <img class="img-logo-soc" src="https://www.hellopro.fr/images/logo/logo_2971.jpg" alt="nom-soc-a-dynamiser">
+                                <span class="nom-comm">YANMAR</span>
+                            </div>
+                            <div class="info-soc">
+                                <div class="info-contact-soc">
+                                    <span class="nom">M. Fr&eacute;d&eacute;ric Lancenar</span>
+                                    <span class="type">Commercial chez YANMAR</span>
+                                    <span class="etat-soc">Disponible</span>
+                                </div>
+                            </div>
+                            <div class="num-tel-soc input-rounded">
+                                <span>+ 33 (0)1 50...</span>
+                                <span id="afficher-numero">&nbsp;Afficher le num&eacute;ro</span>
+                            </div>
+                            <form action="form.php" id="form-demande">
+                                <div class="title">
+                                    <span>Ecrire un message à <span class="nom-comm">Yanmar</span></span>
+                                    <div>
+                                        <div class="bg-bleu">
+                                            <span class="info-tmp-soc">Yanmar r&eacute;pond en moyenne en 2h</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input type="text" placeholder="Entrer votre email" name="mail-acheteur" class="input-rounded input-custom">
+                                <textarea name="message-acheteur" id="message-acheteur" class="input-rounded textarea-custom" placeholder="Merci de préciser votre demande pour que Yanmar puisse vous répondre dans les plus brefs délais"></textarea>
+                                <button class="submit-devis box-rounded">Envoyer</button>
+                            </form>
+                        </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+                <div id="cn-bloc-bottom">
+            <div id="cn-form-devis-minute">
+                <span id="title-devis-minute">Recevez des devis des meilleurs fournisseurs en moins d'une minute !</span>
+                <span id="subtitle-devis-minute">Vous cherchez une mini-pelle :</span>
+                <span id="cn-critere-cta">
+                    <span id="cn-criteres">
+                        <span class="aff-critere">
+                            <input type="checkbox" id="critere-form-minute-1" name="critere-form-minute" class="custom-chkbx">
+                            <label class="lab-crt-form-minute" for="critere-form-minute-1">Sur chenilles</label>
+                        </span>
+                        <span class="aff-critere">
+                            <input type="checkbox" id="critere-form-minute-2"  name="critere-form-minute" class="custom-chkbx">
+                            <label class="lab-crt-form-minute" for="critere-form-minute-2">Sur roues</label>
+                        </span>
+                        <span class="aff-critere">
+                            <input type="checkbox" id="critere-form-minute-3" name="critere-form-minute" class="custom-chkbx">
+                            <label class="lab-crt-form-minute" for="critere-form-minute-3">Sur rails</label>
+                        </span>
+                    </span>
+                    <span id="sub-devis-minute"><a href="javascript:void(0)"></a>Envoyer</span>
+                </span>
+                
+            </div>
+            <div id="bloc-produit-similaire" class="parent-cn-carroussel">
+                <h2 class="sub-bloc-title">Produits similaires</h2>
+                <div id="cn-prod-similaire" class="cn-carroussel">
+                    <div class="btn-scroll prev-scroll">
+                        <span class="arrow-scroll arrow-scroll-prev"></span>
+                    </div>
+                    <div class="prod-similaire">
+                        <span class="photo-prod-sim">
+                            <img class="lazy-load-img img-prod-sim" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-prod-sim">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                    </div>
+                    <div class="prod-similaire">
+                        <span class="photo-prod-sim">
+                            <img class="lazy-load-img img-prod-sim" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-prod-sim">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                    </div>
+                    <div class="prod-similaire">
+                        <span class="photo-prod-sim">
+                            <img class="lazy-load-img img-prod-sim" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-prod-sim">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                    </div>
+                    <div class="prod-similaire">
+                        <span class="photo-prod-sim">
+                            <img class="lazy-load-img img-prod-sim" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-prod-sim">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                    </div>
+                    <div class="prod-similaire">
+                        <span class="photo-prod-sim">
+                            <img class="lazy-load-img img-prod-sim" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-prod-sim">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                    </div>
+                    <div class="prod-similaire">
+                        <span class="photo-prod-sim">
+                            <img class="lazy-load-img img-prod-sim" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-prod-sim">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                    </div>
+                    <div class="prod-similaire">
+                        <span class="photo-prod-sim">
+                            <img class="lazy-load-img img-prod-sim" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-prod-sim">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                    </div>
+                    <div class="prod-similaire">
+                        <span class="photo-prod-sim">
+                            <img class="lazy-load-img img-prod-sim" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-prod-sim">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                    </div>
+                    <div class="btn-scroll next-scroll">
+                        <span class="arrow-scroll arrow-scroll-next"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="cn-conseil">
+                <h2 class="title-bloc-conseil">Les derniers conseils de nos experts</h2>
+                <div id="cn-conseil-card">
+                    <div class="conseil-card">
+                        <span class="left-conseil-card">
+                            <img class="lazy-load-img img-conseil-card" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/8/9/porte-engin-magnum-explorer-300-saris-6071985.jpg" alt="conseil-1">
+                        </span>
+                        <span class="right-conseil-card">
+                            <span class="title-conseil-card">Comment transporter une mini-pelle ?</span>
+                            <span class="link-conseil-card">Lire la suite</span>
+                        </span>
+                    </div>
+                    <div class="conseil-card">
+                        <span class="left-conseil-card">
+                            <img class="lazy-load-img img-conseil-card" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/9/2/4/plateau-lider-1-5t-6048429.jpg" alt="conseil-1">
+                        </span>
+                        <span class="right-conseil-card">
+                            <span class="title-conseil-card">Comment choisir sa remorque pour mini-pelle ?</span>
+                            <span class="link-conseil-card">Lire la suite</span>
+                        </span>
+                    </div>
+                    <div class="conseil-card">
+                        <span class="left-conseil-card">
+                            <img class="lazy-load-img img-conseil-card" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/9/remorque-porte-engins-tema-builder-2-ptac-2-7t-2-essieux-6322935.jpg" alt="conseil-1">
+                        </span>
+                        <span class="right-conseil-card">
+                            <span class="title-conseil-card">Guide sur les formations de conduite d'une mini pelle ?</span>
+                            <span class="link-conseil-card">Lire la suite</span>
+                        </span>
+                    </div>
+                </div>
+                <span class="more-conseil"><span class="more-link">Afficher plus de conseils</span></span>
+            </div>
+            <div id="bloc-ra" class="parent-cn-carroussel">
+                <h2 class="sub-bloc-title">Requêtes associées</h2>
+                <div id="cn-ra" class="cn-carroussel">
+                    <div class="btn-scroll prev-scroll">
+                        <span class="arrow-scroll arrow-scroll-prev"></span>
+                    </div>
+                    <div class="bloc-ra">
+                        <div class="bloc-ra-top">
+                            <span class="photo-ra">
+                                <img class="lazy-load-img img-ra" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/6/9/2/e10z-micro-pelle-compacte-6514296.jpg" alt="produit-simi-1">
+                            </span>
+                            <span class="nom-ra">Mini-pelle Yanmar</span>
+                            <span class="nb-prod ">
+                                <i class="picto-green-dot"></i>
+                                <span class="txt-nb-prod">95 produits disponibles</span>
+                            </span>
+                        </div>
+                        <span class="cta-detail-ra">                
+                            Voir la recherche
+                        </span>
+                    </div>
+                    <div class="bloc-ra">
+                        <div class="bloc-ra-top">
+                            <span class="photo-ra">
+                                <img class="lazy-load-img img-ra" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/6/9/2/e10z-micro-pelle-compacte-6514296.jpg" alt="produit-simi-1">
+                            </span>
+                            <span class="nom-ra">Mini-pelle Yanmar</span>
+                            <span class="nb-prod ">
+                                <i class="picto-green-dot"></i>
+                                <span class="txt-nb-prod">95 produits disponibles</span>
+                            </span>
+                        </div>
+                        <span class="cta-detail-ra">                
+                            Voir la recherche
+                        </span>
+                    </div>
+                    <div class="bloc-ra">
+                        <div class="bloc-ra-top">
+                            <span class="photo-ra">
+                                <img class="lazy-load-img img-ra" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/6/9/2/e10z-micro-pelle-compacte-6514296.jpg" alt="produit-simi-1">
+                            </span>
+                            <span class="nom-ra">Mini-pelle Yanmar</span>
+                            <span class="nb-prod ">
+                                <i class="picto-green-dot"></i>
+                                <span class="txt-nb-prod">95 produits disponibles</span>
+                            </span>
+                        </div>
+                        <span class="cta-detail-ra">                
+                            Voir la recherche
+                        </span>
+                    </div>
+                    <div class="btn-scroll next-scroll">
+                        <span class="arrow-scroll arrow-scroll-next"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="bloc-top-prod" class="parent-cn-carroussel">
+                <h2 class="sub-bloc-title">Le top 5 des produits</h2>
+                <div id="cn-top-five-prod" class="cn-carroussel">
+                    <div class="btn-scroll prev-scroll">
+                        <span class="arrow-scroll arrow-scroll-prev"></span>
+                    </div>
+                    <div class="top-prod">
+                        <span class="photo-top-prod">
+                            <img class="lazy-load-img img-top-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/7/3/4/mini-pelle-e10z-bobcat-6765437.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-top-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="top-prod">
+                        <span class="photo-top-prod">
+                            <img class="lazy-load-img img-top-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/7/3/4/mini-pelle-e10z-bobcat-6765437.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-top-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="top-prod">
+                        <span class="photo-top-prod">
+                            <img class="lazy-load-img img-top-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/1/4/6/vehicule-de-chantier-bobcat-pelles-chargeuses-et-engins-158641.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-top-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="top-prod">
+                        <span class="photo-top-prod">
+                            <img class="lazy-load-img img-top-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/1/4/6/vehicule-de-chantier-bobcat-pelles-chargeuses-et-engins-158641.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-top-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="top-prod">
+                        <span class="photo-top-prod">
+                            <img class="lazy-load-img img-top-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/1/4/6/vehicule-de-chantier-bobcat-pelles-chargeuses-et-engins-158641.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-top-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="btn-scroll next-scroll">
+                        <span class="arrow-scroll arrow-scroll-next"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="bloc-nouveau-produit" class="parent-cn-carroussel">
+                <h2 class="sub-bloc-title">Nouveaux produits</h2>
+                <div id="cn-nouv-prod" class="cn-carroussel">
+                    <div class="btn-scroll prev-scroll">
+                        <span class="arrow-scroll arrow-scroll-prev"></span>
+                    </div>
+                    <div class="nouv-prod">
+                        <span class="photo-nouv-prod">
+                            <img class="lazy-load-img img-nv-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/1/4/6/vehicule-de-chantier-bobcat-pelles-chargeuses-et-engins-158641.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-nouv-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="nouv-prod">
+                        <span class="photo-nouv-prod">
+                            <img class="lazy-load-img img-nv-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/1/4/6/vehicule-de-chantier-bobcat-pelles-chargeuses-et-engins-158641.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-nouv-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="nouv-prod">
+                        <span class="photo-nouv-prod">
+                            <img class="lazy-load-img img-nv-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-nouv-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="nouv-prod">
+                        <span class="photo-nouv-prod">
+                            <img class="lazy-load-img img-nv-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-nouv-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="nouv-prod">
+                        <span class="photo-nouv-prod">
+                            <img class="lazy-load-img img-nv-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-nouv-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="nouv-prod">
+                        <span class="photo-nouv-prod">
+                            <img class="lazy-load-img img-nv-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/1/4/6/vehicule-de-chantier-bobcat-pelles-chargeuses-et-engins-158641.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-nouv-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="nouv-prod">
+                        <span class="photo-nouv-prod">
+                            <img class="lazy-load-img img-nv-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/1/4/6/vehicule-de-chantier-bobcat-pelles-chargeuses-et-engins-158641.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-nouv-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="nouv-prod">
+                        <span class="photo-nouv-prod">
+                            <img class="lazy-load-img img-nv-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-nouv-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="nouv-prod">
+                        <span class="photo-nouv-prod">
+                            <img class="lazy-load-img img-nv-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-nouv-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="nouv-prod">
+                        <span class="photo-nouv-prod">
+                            <img class="lazy-load-img img-nv-prod" src="https://www.hellopro.fr/images/annuaire_hp/loading-ps.svg" data-src="https://www.hellopro.fr/images/produit-3/5/3/4/mini-pelle-e27z-bobcat-6765435.jpg" alt="produit-simi-1">
+                        </span>
+                        <span class="nom-nouv-prod">Mini-pelle 1.6t - Kubota Europe sas u15-3n</span>
+                        <span class="aff-prix">Prix sur demande</span>
+                        <span class="aff-fabr-vend">
+                            <span class="label-fabr-vend">Vendu et fabriqué par : </span>
+                            <span class="val-fabr-vend">KUBOTA</span>
+                        </span>
+                        <span class="cta-contact-vend">Contacter le vendeur</span>
+                    </div>
+                    <div class="btn-scroll next-scroll">
+                        <span class="arrow-scroll arrow-scroll-next"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="bloc-exemple-dd">
+                <h2 class="sub-bloc-title">Exemples de demandes de devis</h2>
+                <div id="cn-exemple-dd">
+                    <div class="exemple-dd">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        <span class="blue-text">Sylvie (Béziers - Doubs -25)</span>
+                    </div>
+                    <div class="exemple-dd">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        <span class="blue-text">Sylvie (Béziers - Doubs -25)</span>
+                    </div>
+                    <div class="exemple-dd">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        <span class="blue-text">Sylvie (Béziers - Doubs -25)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        <footer class="footer">
+    <div class="mhp-container">
+        <div class="hp-grid">
+            <div class="bloc-hp">
+                <a href="https://www.hellopro.fr/qui-sommes-nous">Qui sommes-nous?</a>
+                <a href="https://www.hellopro.fr/mentions.html">Mentions l&eacute;gales</a>
+                <a href="https://www.hellopro.fr/mhp/buyer/cgu">CGUs Hellopro</a>
+                <a href="https://conseils.hellopro.fr">Nos conseils</a>
+            </div>
+            <div class="bloc-cmp d-flex-center">
+                <div class="content-ft">
+                    <a href="https://materiel.hellopro.fr">Comparateur hellopro</a>
+                </div>
+            </div>
+            <div class="bloc-produit-frns d-flex-center">
+                <div class="content-ft">
+                    <a href="https://www.hellopro.fr/liste-produit.html">Listes produits</a>
+                    <a href="https://www.hellopro.fr/liste-societe.html">Listes fournisseurs</a>
+                    <a href="https://www.hellopro.fr/online/page_fournisseur.php">R&eacute;f&eacute;rencer des produits</a>
+                    <a href="https://www.hellopro.fr/plan-site.html">Plan du site</a>
+                </div>
+            </div>
+            <div class="contacter-hp">
+                <a href="https://www.hellopro.fr/nous-contacter.html">Contactez-nous</a>
+                <a href="https://www.welcometothejungle.com/fr/companies/hellopro/jobs">Nous recrutons</a>
+                <a href="https://www.hellopro.fr/redirection_interne.php?v=mc">Espace Fournisseur</a>
+            </div>
+            <div class="social-hp d-flex-center">
+                <a class="hp-twitter" href="https://twitter.com/hellopro" target="_blank"></a>
+                <a class="hp-fb" href="https://www.facebook.com/pages/Hellopro/124653501856" target="_blank"></a>
+                <a class="hp-linkedin" href="https://www.linkedin.com/company/hellopro" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+</footer>    <link rel="stylesheet" href="https://www.hellopro.fr/css/annuaire_hp/v6/header_v6.css?v=202210041200">
+    <link rel="stylesheet" href="https://www.hellopro.fr/css/annuaire_hp/v6/body_content.css?v=202210041300">
+    <link rel="stylesheet" href="https://www.hellopro.fr/css/annuaire_hp/v6/footer_v6.css?v=202210041200">
+    <script defer src="https://www.hellopro.fr/js/annuaire_hp/v6/generale_v6_c.js?v=202210041200"></script>
+    <script defer src="https://www.hellopro.fr/js/annuaire_hp/v6/generale_v6_nc.js?v=202210041200"></script>
 </body>
 </html>
